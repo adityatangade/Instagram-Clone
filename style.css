@@ -1,0 +1,144 @@
+/* div{
+    border: 1px solid black;
+}*/
+body{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100vh;
+    width: 98vw;
+}
+.col{
+    /* border:1px solid black; */
+    border:1px solid rgb(236, 228, 228);
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.logo1{
+    width: 163px;
+    height: 50px;
+    padding-left:4px ;
+    position: fixed;
+}
+.navMenu{
+    /* background-color: yellow; */
+    height: auto;
+    font-size: 20px;
+    padding:15px;
+    margin-top: 100px;
+    margin-bottom: 3px;
+    position: fixed;
+}
+.navMenu div a{
+   text-decoration: none;
+   color: black;
+}
+.navMenu div{
+    margin-bottom:24px;
+}
+.profile{
+    /* background-color: yellow; */
+    width: auto;
+    height: auto;
+    padding-left:4px;
+    font-size: 21px;
+    padding-left: 15px;
+    position:fixed;
+    bottom: 10px;
+}
+.your_profile_html{
+    display: flex;;
+}
+.profile a{
+    text-decoration: none;
+    color: black;
+}
+.profileImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Homepage Column 2 content page */
+
+#col2 {
+    display: grid;
+    grid-template-rows:1fr *fr;
+    height: 100%;
+    width: 100%;
+}
+#stories {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: auto; */
+    width: 60%;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-top: 2px;
+    overflow-x:auto;
+    /* Some work on overflow is hidden */
+}
+.story {
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0 6px;
+    /* background-color:yellow; */
+}
+
+.story_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:3px solid rgb(194, 4, 166);
+    border-left:3px solid rgb(235, 104, 104);
+}
+
+.story_para {
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+/* Add more CSS styles as needed */
+
+#contents{
+    width: 60%;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-top: 0;;
+    /* background-color: yellow; */
+}
+.personalContent{
+    display: grid;
+    grid-template-rows: 1fr *fr 1fr;
+    /* margin-top: 30px; */
+    margin-bottom: 30px; 
+    /* border: 1px solid black; */
+
+}
+#profileIntro{
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 2px;
+    padding-bottom: 8px;
+}
+#image_video_Content{
+    padding-top: 0px;
+    /* padding: 100px; */
+    margin-bottom: 2px;
+    text-align: center;
+}
+.contentImage{
+    height: 100%;
+    width: 100%;
+}
+#description{
+    font-size: 16px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
