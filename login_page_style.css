@@ -1,0 +1,124 @@
+*{
+    font-family:"Roboto","sans-serif";
+}
+.formcontent {
+        margin: 15px;
+    }
+
+    .login_box {
+        border: 1px solid rgb(192, 185, 185);;
+        display: inline-block;
+        width: 320px;
+        margin: 50px;
+        position: relative;
+        /* background-color: rgba(252, 240, 240, 0.692); */
+        background-color:whitesmoke;
+        margin-bottom: 5px;
+    }
+
+    body {
+        font-family: calibri;
+    }
+
+    .logo {
+        width: 150px;
+        margin: 15px;
+    }
+    .faceB:hover{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .faceB{
+        margin-left:15px;
+        width: 200px; 
+        height: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+    }
+    .AppStore{
+        width: 130px;
+        height: 45px;
+    }
+    .GooglePlay{
+        width: 134px;
+        height: 44px;
+        margin-top:5px;
+        margin-left: 3px;
+        border:2px;
+        border-radius:3px;
+    }
+    .sign_up_box{
+        border:1px solid rgb(192, 185, 185);;
+        width: 320px;
+        background-color: whitesmoke;
+        padding-top: 24px;
+        padding-bottom:24px;
+    }
+.facebook_logo{
+        border:1px ;
+        border-radius: 3px;
+        background-color: black;
+}
+.googleDiv{
+    display:block;
+    width:140px;
+    height:70px;
+    border-radius:2px;
+}
+.appleDiv{
+    padding-top:4px;
+}
+.GTA{
+    margin: 10px;
+}
+.link_sign_up{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(19, 158, 212);
+}
+#form_username{
+    width:250px;
+    height:30px;
+    margin-top:15px;
+    margin-bottom:2px;
+}
+#form_password{
+    width:250px;
+    height:30px;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+#form_submit
+{
+    color:white;
+    border:1px solid skyblue;
+    width:250px;height:25px;
+    background-color:rgb(19, 158, 212);
+    border-radius: 7px;
+}
+.or_box{
+    display:flex;
+    width: 200px;
+    margin-bottom:15px;
+}
+.or_side_bar{
+    width: 90px;
+}
+.or{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.forget_pass{
+    text-decoration: none;
+}
+.facebook_logo{
+    width: 30px;
+    height:30px;
+}
+.faceB_Link{
+    border: 1px;
+    border-radius: 5px;
+}
+.LIWF{
+    padding-top:7px;
+}
