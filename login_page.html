@@ -9,7 +9,7 @@
     <center>
         <div class="login_box">
             <span><img src="Images\logo2.png" alt="logo" class="logo"></span>
-            <form action="index.html">
+            <form action="index.html" onsubmit="return validateLogin()">
                 <input type="text" class="formcontent" id="form_username" placeholder="phone number,username,or email"><br>
                 <input type="password" class="formcontent"  id="form_password" placeholder="password"
                 ><br>
@@ -53,6 +53,7 @@
             </div>
         </div>
     </center>
+    <script src="login_validation.js"></script>
 </body>
 
 </html>
